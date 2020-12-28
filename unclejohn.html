@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sup boiiii</title>
+    <style>
+      body {
+        background-image: url(https://media3.giphy.com/media/J2apf28BHZS9u7nVaI/200.webp?cid=ecf05e47vmhs8nglak0fqtu6qj618lyp99vcndpb81v11h5p&rid=200.webp);
+      }
+      .needsCover {
+        background: #ffe7e5;
+        padding: 8px 20px;
+        border-radius: 25px;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 100;
+        font-size: 20px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 80px;
+        font-family: Palatino, URW Palladio L, serif;
+        margin: 4px 4px;
+      }
+      h1:hover {
+        cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1049.cur), auto !important;
+      }
+      h2 {
+        text-align: center;
+        font-size: 70px;
+        font-family: "Waiting for the Sunrise", cursive;
+        overflow: hidden;
+        border-right: 0.15vw solid #ffa500;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.15vw;
+        animation: typing 6s steps(40, end), blink-caret 0.75s step-end infinite;
+        font-weight: bold;
+        font-size: 1.5vw;
+      }
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      @keyframes blink-caret {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #ffa500;
+        }
+      }
+
+      p {
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: linear-gradient(#fff600, #e38596);
+        color: magenta;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+        font-family: Palatino, URW Palladio L, serif;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat977.gif), auto !important;
+      }
+
+      .emojiContent {
+        font-size: 60px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1019.cur), auto !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="needsCover">
+      <br />
+      <h1>
+        Hi Uncle John!
+      </h1>
+      <h2>
+        what is up homedawg, how are you feeling this fine day?
+      </h2>
+      <div>
+        <p class="h3">
+          <strong>i miss my old pal uncle john</strong>
+        </p>
+      </div>
+      <button class="buttonOne">
+        click me! click me! click me! click me!
+      </button>
+      <br />
+      <hr />
+      <div class="putCursor">
+        <p class="emojiContent">
+          <a href="https://www.youtube.com/watch?v=PgD56JEUWFA" target="_blank"
+            >🐶</a
+          >
+          <a href="https://www.youtube.com/watch?v=j_0qBccD7Qc" target="_blank"
+            >🐱</a
+          >
+          <a href="https://www.youtube.com/watch?v=EN0SJ-gwXSU" target="_blank"
+            >🐭</a
+          >
+          <a href="https://www.youtube.com/watch?v=9A6iuWI_S88" target="_blank"
+            >🐰</a
+          >
+          <a href="https://www.youtube.com/watch?v=lhYBX9aoIdY" target="_blank"
+            >🦊</a
+          >
+          <a href="https://www.youtube.com/watch?v=WRUcCsw7kVc" target="_blank"
+            >🐻</a
+          >
+          <a href="https://www.youtube.com/watch?v=ySRMDsJoIzM" target="_blank"
+            >🐼</a
+          >
+          <a href="https://www.youtube.com/watch?v=1CzKkLcbycw" target="_blank"
+            >🐨</a
+          >
+          <a href="https://www.youtube.com/watch?v=7nQhWhI89kQ" target="_blank"
+            >🦁</a
+          >
+          <a href="https://www.youtube.com/watch?v=YL1NgXksC3E" target="_blank"
+            >🐷</a
+          >
+          <a href="https://www.youtube.com/watch?v=_9Pwyp7aVPI" target="_blank"
+            >🐸</a
+          >
+          <a href="https://www.youtube.com/watch?v=1GL35T21k54" target="_blank"
+            >🐵</a
+          >
+          <a href="https://www.youtube.com/watch?v=ufu3Bo6GySE" target="_blank"
+            >🐿</a
+          >
+          <a href="https://www.youtube.com/watch?v=3ht_87AZjoI" target="_blank"
+            >🐧</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function doYouWant() {
+        let question = prompt("Do you want to see some cute animals?");
+
+        if (
+          question === "yes" ||
+          question === "Yes" ||
+          question === "YES" ||
+          question === "yeah"
+        ) {
+          alert(
+            "Oh good, lol, Lily told me you liked watching cute animal videos. Click on the emojis belowowow💖"
+          );
+        } else {
+          alert("Maybe next time!");
+        }
+      }
+      let questionButton = document.querySelector(".buttonOne");
+      questionButton.addEventListener("click", doYouWant);
+
+      function nameCheck() {
+        let name = prompt("What is your first name?");
+        let lastName = prompt("What is your last name");
+        name = name.toLowerCase();
+        name = name.trim();
+
+        if (name === "john" || name === "uncle john") {
+          let uncle = prompt("Are you Hannah's uncle?");
+          if (uncle === "yes" || uncle === "Yes") {
+            let h1 = document.querySelector("h1");
+            h1.innerHTML = "Hi Uncle John!";
+            let h3 = document.querySelector(".h3");
+            h3.innerHTML = "💖FEEL BETTER SOON💖";
+          }
+        } else {
+          let h1 = document.querySelector("h1");
+          h1.innerHTML = "Sorry, " + name + "!";
+          let h2 = document.querySelector("h2");
+          h2.innerHTML = "This website is not for you";
+          let buttonClick = document.querySelector("button");
+          buttonClick.innerHTML = "no clicking for you😐";
+        }
+      }
+      nameCheck();
+    </script>
+  </body>
+</html>
